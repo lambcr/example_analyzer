@@ -42,7 +42,7 @@ group :development, :test do
   gem 'brakeman', require: false
   gem 'rubocop', '~> 0.53.0', require: false
   gem 'pronto'
-  #gem 'pronto-rubocop', require: false
+  gem 'pronto-rubocop', require: false
   #gem 'pronto-brakeman', require: false
 end
 
