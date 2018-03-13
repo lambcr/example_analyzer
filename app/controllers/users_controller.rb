@@ -4,7 +4,8 @@ class UsersController < ApplicationController
   # GET /users
   # GET /users.json
   def index
-    @users = User.where("name=#{params[:name]}")
+    @users = User
+      .where("name=#{params[:name]}")
       .where("email=#{params[:email]}")
   end
 
